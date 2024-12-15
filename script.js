@@ -11,21 +11,21 @@ function flerChanged() {
     ];
     
     var eventHeadlines = [
-      "",
+      "Drag Show Flyer",
       "",
       "",
       ""
     ];
   
     var timelineImages = [
-      "",
+      "C:\Users\rando\OneDrive\Documents\GitHub\porfolio\450781590_1596814897830853_189360977095079408_n.jpg",
       "",
       "",
       "",
     ];
   
     var timelineText = [
-      "",
+      "Clinet requested a flyer based on the movie 13 Ghost, for a Friday the 13th themed Show.",
       "",
       "",
       "",
