@@ -10,11 +10,11 @@ function flerChanged() {
       ""
     ];
     
-    var timelineHeadlines = [
-      "1 Year Out",
-      "3 Years Out",
-      "5 Years Out",
-      "10 Years Out"
+    var eventHeadlines = [
+      "",
+      "",
+      "",
+      ""
     ];
   
     var timelineImages = [
@@ -33,54 +33,35 @@ function flerChanged() {
   
     if ( timelinePosition == "0" ) {
       setTimelineDate( timelineDate[0] );
-      setTimelineHeadline( timelineHeadlines[0] );
+      setTimelineHeadline( eventHeadliness[0] );
       setTimelineImage( timelineImages[0] );
       setTimelineText( timelineText[0] );
     }
     if ( timelinePosition == "1" ) {
       setTimelineDate( timelineDate[1] );
-      setTimelineHeadline( timelineHeadlines[1] );
+      setTimelineHeadline( eventHeadlines[1] );
       setTimelineImage( timelineImages[1] );
       setTimelineText( timelineText[1] );
     }
    if ( timelinePosition == "2" ) {
       setTimelineDate( timelineDate[2] );
-      setTimelineHeadline( timelineHeadlines[2] );
+      setTimelineHeadline( eventHeadlines[2] );
       setTimelineImage( timelineImages[2] );
       setTimelineText( timelineText[2] );
     }
      if ( timelinePosition == "3" ) {
       setTimelineDate( timelineDate[3] );
-      setTimelineHeadline( timelineHeadlines[3] );
+      setTimelineHeadline( eventHeadlines[3] );
       setTimelineImage( timelineImages[3] );
       setTimelineText( timelineText[3] );
-    }//at least four total positions of the timeline.
-    
-    //Hint: You'll want to change the index from 0!
-    //Remember, the index of an array starts at 0!
+    }
+
     
   }
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  /////////////////////////////////
-  //                             //
-  // Do not alter the code below //
-  //                             //
-  /////////////////////////////////
-  
-  
-  
-  
-  
-  function setTimelineHeadline( headline ) {
+
+  function setEventHeadline( headline ) {
     document.getElementById("headline").innerHTML = headline;
   }
   
