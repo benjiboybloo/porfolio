@@ -249,7 +249,22 @@ p{
   margin-bottom: 100px;
   padding-bottom: 50px;
 }
-#flyer-1 {
+.slider{
+  position: 
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider img{
+  width: 100%;
+  display: none;
+}
+
+img.displaySlide{
+  display:block;
+}
+.slides{
   width: auto;
   height: auto;
   max-width: 500px;
