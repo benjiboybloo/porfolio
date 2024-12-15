@@ -6,10 +6,10 @@ let intervalId =null;
 
 //initialize the slider
 
-document.addEventListener("DOMContentLoaded", initalizeSlider);
+document.addEventListener("DOMContentLoaded", initializeSlider);
 
 
-functionin initalizeSlider() {
+function initializeSlider() {
     
    if(slides.length > 0) {
     slides[slideIndex].classList.add("displaySLide;");
