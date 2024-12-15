@@ -150,6 +150,8 @@ footer {
     border-top-right-radius: 500px;
     border-bottom-left-radius: 500px;
     border: 4px solid darkblue;
+    clear: both;
+    padding-top: 20px;
 }
 footer a{
   text-decoration: none;
@@ -237,3 +239,26 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
+#show-flyer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+#flyer-1 {
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 375px;
+}
+#flyer-2 {
+  width: auto;
+  height: auto;
+  max-width: 500px;;
+  max-height: 375px;
+}
+#
