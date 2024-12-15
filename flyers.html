@@ -3,75 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional flyer designs and creative portfolio showcasing graphic design work. View our collection of eye-catching promotional materials.">
+    <meta name="keywords" content="flyer design, graphic design, portfolio, promotional materials">
+    <meta name="author" content="Benjamin Perkton">
+    <meta property="og:title" content="Flyer Design Portfolio">
+    <meta property="og:description" content="Professional flyer designs and creative portfolio showcasing graphic design work.">
+    <meta property="og:image" content="images/featured-flyer.jpg">
     <title>Benjamin Perkton</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
 </head>
-<script src="script.js" defer></script>
 <body>
     <header>
         <img src="head subtext.png" alt="Header image" class="header-img">
-        
         <nav class="main-nav">
             <a href="index.html">Home</a>
             <a href="education.html">Education</a>
             <a href="contacts.html">Contact Information</a>
         </nav>
     </header>
-    <body onload="timelineChanged()">
-        <div class="headline">
-          <br />
-          <h1>10 Year Goals</h1>
-          <br /><br />
+    <body>
+        <header>
+            <h1>Flyers Gallery</h1>
+        </header>
+    
+        <main>
+            <div class="slider-container">
+                <!-- Images will be loaded here from script.js -->
+            </div>
+        </main>
+    
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <div class="index-footer">
+            <a href="mailto:ben.perkton@gmail.com" aria-label="Email">
+                <img src="C:\Users\rando\coding port\webpage\icons\email white.png" alt="Email icon">
+            </a>
+            <a href="tel:4703319586" aria-label="Phone">
+                <img src="C:\Users\rando\coding port\webpage\icons\phone white.png" alt="Phone icon">
+            </a>
+            <a href="https://www.linkedin.com/in/benjamin-perkton-96424633a/" aria-label="LinkedIn">
+                <img src="C:\Users\rando\coding port\webpage\linkedin-svgrepo-com.png" alt="LinkedIn logo" width="50" height="50">
+            </a>
         </div>
-    
-        <div class="description">
-          <center>
-          <br>
-          <p> In Addition to Web Development, I Have A Passion for Graphic Design.
-          </center>
-            <h2>The Road to My Goals</h2>
-        <div class="Timeline">
-          <br />
-          <br />
-        <h4>
-            
-        </h4>
-            <h5> Use Slider To Look at Photos</h5>
-          <input
-            onchange="timelineChanged()"
-            id="timeline"
-            type="range"
-            min="0"
-            max="3"
-            value="0"
-            step="1"
-         >
-        
-          <br>
-        </br>
-    
-          <em id="date"> </em>
-    
-          <h2 id="headline"></h2>
-    
-          <img id="image" height="480" width="320";"src="" alt="Timeline image" />
-    
-          <p id="text"></p>
-        </div>   
-    </br> 
-      <source src="" type="audio/mpeg">
-</body>
-<footer>
-    <div class="index-footer">
-        <a href="mailto:ben.perkton@gmail.com" aria-label="Email">
-            <img src="C:\Users\rando\coding port\webpage\icons\email white.png" alt="Email icon">
-        </a>
-        <a href="tel:4703319586" aria-label="Phone">
-            <img src="C:\Users\rando\coding port\webpage\icons\phone white.png" alt="Phone icon">
-        </a>
-        <a href="https://www.linkedin.com/in/benjamin-perkton-96424633a/" aria-label="LinkedIn">
-            <img src="C:\Users\rando\coding port\webpage\linkedin-svgrepo-com.png" alt="LinkedIn logo" width="50" height="50">
-        </a>
-    </div>
-</footer>
-</html> 
+    </footer>
+</html>

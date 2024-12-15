@@ -73,7 +73,27 @@ h1 {
     left: 40px;
     position: absolute;
     
-   
+   .slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+}
   
 }
 .edu-container {
