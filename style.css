@@ -302,6 +302,36 @@ img.displaySlide{
 }
 .next{
   right: 0;
+  
+}
+form{
+  background-color: white;
+  padding:20px;
+  border-radius: 5px;
+  color:black;
+}
+.fname, .lname, .email2, .comment, textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+input:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.94);
+}
+input:focus{
+  color:blue;
+}
+label{
+  margin-left:;
+}
+.fname .lname .email .comment {
+  margin-left: 20px;
+}
+.comment{
+  
 }
 
 @keyframes fade{
