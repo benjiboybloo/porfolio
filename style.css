@@ -263,6 +263,8 @@ p{
 
 img.displaySlide{
   display:block;
+  animation-name: fade;
+  animation-duration: 1s;
 }
 .slides{
   width: auto;
@@ -270,6 +272,31 @@ img.displaySlide{
   max-width: 500px;
   max-height: 375px;
 }
+
+.slier button{ 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  padding: 10px 15px;
+  background-color: white;
+  color:blue;
+  border: none;
+  cursor: pointer
+}
+
+.prev{
+  left: 0;
+}
+.next{
+  right: 0;
+}
+
+@keyframes fade{
+  from{opacity: 0.5};
+  to {opacity: 1};
+}
+
 #flyer-2 {
   width: auto;
   height: auto;
