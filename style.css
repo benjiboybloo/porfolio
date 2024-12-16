@@ -186,6 +186,18 @@ nav{
   font-family: Arial, Helvetica, sans-serif;
   font-size: xx-large; 
 }
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.main-nav a {
+  flex: 1;
+  text-align: center;
+  max-width: 200px;
+  padding: 20px;
+}
 
 footer img {
   width: 30x;
@@ -239,7 +251,7 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
-#show-flyer-container {
+.slider {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -303,4 +315,13 @@ img.displaySlide{
   max-width: 500px;;
   max-height: 375px;
 }
-#
+#flyer-1{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 375px;
+}
+
+main #gallery {
+  margin-bottom: 100px;
+}

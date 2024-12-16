@@ -14,24 +14,23 @@
 </head>
 <body>
     <header>
-        <img src="head subtext.png" alt="Header image" class="header-img">
+        <img src="images\head subtext.png" alt="Header image" class="header-img">
         <nav class="main-nav">
             <a href="index.html">Home</a>
             <a href="education.html">Education</a>
             <a href="contacts.html">Contact Information</a>
         </nav>
     </header>
-    <main>
+    <main">
          <h1>Flyers Gallery</h1>
          <div class="slider">
+            <button class ="prev" onclick="prevSlide()">&#10094</button>
             <div class="slides">
-                <img class="slide" src="images\image1.jpg" alt="Image 1">
+                <img class="slide" id="flyer-1" src="images\image1.jpg" alt="Image 1">
                 <img class="slide" src="images\image2.png" alt="Image 2">
                 <img class="slide" src="images\images3.png" alt="Image 3">
             </div>
     
-
-            <button class ="prev" onclick="prevSlide()">&#10094</button>
             <button class ="next" onclick="nextSlide()">&#10095</button>
         </div>
     </main>
